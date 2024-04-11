@@ -1,0 +1,32 @@
+body {
+    display: block;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1024px;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+div#imagem-receita img {
+    max-width: 20rem ;
+    align-items: left;
+    border-radius: 20px;
+}
+
+#receita h1{
+    text-align: center;
+    font-family: 'Fira Code';
+}
+
+#subtitle {
+    font-family: Helvetica;
+    font-size: 0.8rem;
+    text-indent: 4rem;
+    line-height: 1.5rem;
+    font-style: oblique;
+    opacity: 0.5;
+    
+}
