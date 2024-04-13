@@ -1,6 +1,7 @@
 body {
     display: block;
     justify-content: center;
+    font-family: Montserrat, sans-serif; 
 }
 
 .container {
@@ -10,7 +11,7 @@ body {
     padding: 1rem;
 }
 
-div#imagem-receita img {
+#imagem-receita img {
     max-width: 20rem ;
     align-items: left;
     border-radius: 20px;
@@ -29,4 +30,28 @@ div#imagem-receita img {
     font-style: oblique;
     opacity: 0.5;
     
+}
+
+#ingredientes{
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.75);
+}
+
+#modoDePreparo {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.75);
+    line-height: 1.5rem;
+    
+}
+
+#titulo {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.75);
+}
+
+#modoDePreparo span p {
+    display: inline;
+    opacity: 0.5;
+    font-style: oblique;
+    font-family: Helvetica, sans-serif;
 }
