@@ -25,12 +25,6 @@ main{
     line-height: normal; 
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    text-align: center;
-}
-
 ul{
     list-style-type: none;
     padding: 0;
