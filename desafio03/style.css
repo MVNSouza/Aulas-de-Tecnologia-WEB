@@ -110,12 +110,29 @@ nav {
     display: flex;
 }
 
-.searchbar{
-    max-width: fit-content;
-    background-color: #284b63c7;
-
+.searchbar , .searchbar input {
+    background-color: #284b63;
+    border-radius: 10px;
 }
 
-.searchbar img{
-    
+.searchbar img {
+    float: right;
+    padding: 10px;
+    transition: 1s ease;
+}
+
+.searchbar img :hover{
+    transform: scale(10%);
+    cursor: pointer;
+}
+
+#check input {
+    max-width: 80%;
+    padding: 5px;
+} 
+
+label{
+    color:#284B63;
+    font-weight: bolder;
+    font-size: small;
 }
