@@ -5,16 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de jogos | Desafio 3</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>Jogos Populares &#x1F3AE&#x1F579;&#xFE0F;</h1>
+    </header>
+
+    <nav>
+        <div class="searchbar">
+        <form>
+        <input type="text" placeholder="Digite algum jogo para pesquisar...">
+        <img src="images/search-icon.svg" alt=""> 
+        </form>
+        </div>
+    </nav>
+
     <div class="jogo">
         <ul>
-            <li class="imagem"><img src="https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/social/cs2.jpg" alt=""></li>
+            <li class="imagem"><img src="https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/social/cs2.jpg" alt="Capa do jogo Counter-Strike 2"></li>
             <li class="titulo"><p><strong>Counter-Strike 2</strong></p>
-                <ul>
-                    <li><p>9,5</p></li>
-                    <li><p>Favoritar</p></li>
+                <span>
+                    <ul>
+                        <li class="icone"><img src="images/Star.svg" alt="Ícone de estrela, representa a nota"></li>
+                        <li class="atributo"><p>9,5</p></li>
+                        <li class="icone"><img src="images/Heart.svg" alt="Ícone de coração, utilizado para favoritar o jogo."></li>
+                        <li class="atributo"><p>Favoritar</p></li>
                     </ul>
+                </span>
             </li>
             <li class="descricao">
                 <p>Há mais de duas décadas, o Counter-Strike oferece uma experiência competitiva de elite moldada por milhões de jogadores mundialmente. Agora, o próximo capítulo da história do CS vai começar. Isso é Counter-Strike 2.</p>
@@ -23,12 +43,42 @@
     </div>
     
     <div class="jogo">
-
+        <ul>
+            <li class="imagem"><img src="https://cdn1.epicgames.com/offer/611482b8586142cda48a0786eb8a127c/EGS_DeadbyDaylight_BehaviourInteractive_S1_2560x1440-a32581cf9948a9a2e24b2ff15c1577c7" alt="Capa do jogo Dead by Daylight"></li>
+            <li class="titulo"><p><strong>Dead By Daylight</strong></p>
+                <span>
+                    <ul>
+                        <li class="icone"><img src="images/Star.svg" alt="Ícone de estrela, representa a nota"></li>
+                        <li class="atributo"><p>9,0</p></li>
+                        <li class="icone"><img src="images/Heart.svg" alt="Ícone de coração, utilizado para favoritar o jogo."></li>
+                        <li class="atributo"><p>Favoritar</p></li>
+                    </ul>
+                </span>
+            </li>
+            <li class="descricao">
+                <p>Um jogo de terror multiplayer onde cada partida é uma luta pela sobrevivência. Enfrente assassinos implacáveis ou torne-se um deles, caçando suas vítimas em ambientes sinistros. A cada encontro, o medo é real e a tensão é constante. Dead by Daylight te desafia a sobreviver ou sucumbir ao horror.</p>
+            </li>
+        </ul>
 
     </div>
     
     <div class="jogo">
-
+        <ul>
+            <li class="imagem"><img src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51" alt="Capa do jogo Hollow Knight"></li>
+            <li class="titulo"><p><strong>Hollow Knight</strong></p>
+                <span>
+                    <ul>
+                        <li class="icone"><img src="images/Star.svg" alt="Ícone de estrela, representa a nota"></li>
+                        <li class="atributo"><p>9,3</p></li>
+                        <li class="icone"><img src="images/Heart.svg" alt="Ícone de coração, utilizado para favoritar o jogo."></li>
+                        <li class="atributo"><p>Favoritar</p></li>
+                    </ul>
+                </span>
+            </li>
+            <li class="descricao">
+                <p>Explore um vasto e misterioso reino subterrâneo, repleto de segredos e desafios. Com sua jogabilidade precisa e atmosfera envolvente, Hollow Knight oferece uma jornada épica de descobertas e batalhas intensas. Aventurar-se em Hallownest é embarcar em uma experiência que combina beleza e perigo em igual medida.</p>
+            </li>
+        </ul>
 
     </div>
 </body>

@@ -1,11 +1,11 @@
 html, body {
     background-color: #FCFCFC;
-    color: #e4e4e4;
+    color: #d1d1d1;
     align-content: center;
     height: 100%;
     margin: 0;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat';
 
 }
 
@@ -44,9 +44,9 @@ li{
 }
 
 .descricao{
-    max-width: 50%;
+    max-width: 100%;
     float: right;
-    margin-left: 200px;
+    margin-left: 10%;
     text-align: left;
 }
 
@@ -62,4 +62,60 @@ li{
     box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 20px;
     margin-right: 60px;
     margin: 20px;
+}
+
+header h1 {
+    color: #284B63;
+}
+
+.icone img {
+    margin-top: 17px;
+    width: 85%;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 0;
+    transition: 1s ease;
+}
+
+.icone img:hover {
+    cursor: pointer;
+    width: 105%;
+}
+
+nav input { 
+    width: 600px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #d1d1d1;
+    font-size: 0.9rem;
+    font-family: 'Montserrat';
+    outline: none;
+    border: none;
+}
+
+input::placeholder {
+    font-family: 'Montserrat';
+    color: #d1d1d1;
+    font-size: 0.9rem;
+    border: none;
+}
+
+input :hover{
+    border: solid #182c3a96 3px;
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+}
+
+.searchbar{
+    max-width: fit-content;
+    background-color: #284b63c7;
+
+}
+
+.searchbar img{
+    
 }
