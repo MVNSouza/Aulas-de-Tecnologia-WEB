@@ -1,0 +1,30 @@
+body {
+    background-color: #F6FCFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;  
+    flex-direction: column;
+}
+
+header{
+    text-align: center;
+    gap: 20px;
+}
+
+header p {
+    color:rgba(0, 0, 0, 0.5) ;
+}
+
+main{
+    display: inline-block;
+}
+
+form input {
+    background-color: #F6FCFF;
+    max-height: 20px;
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5) ;
+    outline: none;
+}
