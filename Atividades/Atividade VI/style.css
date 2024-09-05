@@ -14,9 +14,10 @@ body{
 }
 
 nav {
-    width: 1024px;
+    min-width: 1024px;
     max-height: 100px;
     position: relative;
+    top: 0;
     background-color: #fafafa;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5) ;
     box-sizing: border-box;
@@ -75,10 +76,11 @@ button:hover{
     height: 540px;
     align-items: center;
     position: relative;
+    top: 0;
     z-index: -1;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 2px 0 20px black;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5) ;
     padding: 40px;
 }
 
