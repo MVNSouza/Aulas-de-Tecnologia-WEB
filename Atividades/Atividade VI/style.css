@@ -36,7 +36,7 @@ button{
     padding: 10px;
     border: 1px solid green;
     color: green;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 button:hover{
@@ -93,7 +93,7 @@ button:hover{
 h1{
     font-family: 'Helvetica Neue', sans-serif;
     max-width: 500px;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
 }
 
 .info{
@@ -106,7 +106,7 @@ h1{
     height: max-content;
     position: absolute;
     bottom: 130px;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .info:hover{
