@@ -52,4 +52,5 @@ img:hover{
     z-index: 6;
     box-shadow: none;
     transform: translateY(-5%) rotateY(180deg);
+    cursor: pointer;
 }
