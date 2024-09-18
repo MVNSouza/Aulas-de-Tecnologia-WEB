@@ -16,10 +16,10 @@ body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
-    color: var(--text-color); /* veja que aqui usamos uma variável definida anteriormente */
+    color: var(--text-color); 
 }
   
-  /* o símbolo de maior que (>) indica que estamos selecionando os filhos diretos de body */
+
 body > * { 
     width: 100%;
 }
@@ -38,13 +38,11 @@ main {
 }
 
 .container-limiter {
-    /* define uma largura máxima - valor definido anteriormente em uma variável */
     max-width: var(--max-width-container);
-    width: 100%; /** largura padrão de 100% até o limite definido acima */
-    padding: 0 20px; /** padding nas laterais para o conteúdo não ficar colado na borda */
+    width: 100%; 
+    padding: 0 20px; 
 }
   
-  /** centralizando os contâineres horizontalmente usando flexbox */
 .content-center {
     display: flex;
     justify-content: center;
@@ -60,11 +58,7 @@ h1 {
     padding: 1rem 2rem;
     text-decoration: none;
     display: inline-block;
-    /** tempo de transição para quando o elemento sofrer qualquer alteração em qualquer propriedade 
-    * - isso torna a transição mais suave
-    */
     transition: all 0.3s;
-    /** ao definir uma borda transparente, estamos "reservando" o espaço para tornar a borda visível depois e não gerar inconsistência nos espaçamentos */
     border: 1px solid transparent;
 }
 
@@ -102,7 +96,6 @@ h1 {
     border: 1px solid var(--primary-color);
     text-decoration: none;
     padding: 0.75rem 1.15rem;
-    /** define a duração de transição */
     transition: all 0.3s;
 }
 
